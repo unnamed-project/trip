@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>[Unnamed] Team members</h1>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let person of teamPersons">
+      <td>{{ person.firstName }}</td>
+      <td>{{ person.lastName }}</td>
+      <td>{{ person.email }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

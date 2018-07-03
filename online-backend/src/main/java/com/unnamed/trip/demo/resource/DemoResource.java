@@ -16,7 +16,7 @@ import java.util.List;
 public class DemoResource {
 
     @RequestMapping(method = RequestMethod.GET, value = "/persons")
-    public List<PersonInfo> gerPersons() {
+    public List<PersonInfo> getPersons() {
 
 
         return getTeamPersons();

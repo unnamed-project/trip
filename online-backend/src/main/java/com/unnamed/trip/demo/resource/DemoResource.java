@@ -47,6 +47,7 @@ public class DemoResource {
         person = new PersonInfo();
         person.setFirstName( "Sergiu" );
         person.setLastName( "Elecfi" );
+        person.setEmail( "elecfis@gmail.com" );
         teamPersons.add( person );
 
         person = new PersonInfo();

@@ -30,12 +30,14 @@ public class DemoResource {
         person.setFirstName( "Flaviu" );
         person.setLastName( "Fildan" );
         person.setEmail( "flaviu.fildan@arobs.com" );
+        person.setAge(28);
         teamPersons.add( person );
 
         person = new PersonInfo();
         person.setFirstName( "Iulia" );
         person.setLastName( "Timis" );
         person.setEmail( "timis_iulia1@yahoo.com" );
+        person.setAge(17);
         teamPersons.add( person );
 
         person = new PersonInfo();
@@ -47,6 +49,7 @@ public class DemoResource {
         person = new PersonInfo();
         person.setFirstName( "Sergiu" );
         person.setLastName( "Elecfi" );
+        person.setEmail( "elecfis@gmail.com" );
         teamPersons.add( person );
 
         person = new PersonInfo();
